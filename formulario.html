@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Formulário</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style-formulario.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="layer">
+            
+            <div id="formulario">
+                <h1>Formulário de pesquisa</h1>
+                <p>Obrigado por nos fazer melhorar sempre</p>
+                
+                <main class="registro">
+                    <form>
+                        <label for="nomesobrenome">Nome e sobrenome</label>
+                        <input type="text" id="nomesobrenome" class="input-padrao" required placeholder="Escreva seu nome">
+
+                        <label for="email">Email</label>
+                        <input type="email" id="email" class="input-padrao" required placeholder="email@dominio.com">
+
+                        <label for="idade">Idade (opcional)</label>
+                        <input type="number" id="idade" class="input-padrao" placeholder="Escreva sua idade">
+
+                        <fieldset>
+                            <legend>Você nos recomendaria para um amigo?</legend>
+                            <label for="radio-sim"><input type="radio" name="recomenda" value="sim" id="radio-sim" checked>Sim</label>
+                            <label for="radio-talvez"><input type="radio" name="recomenda" value="talvez" id="radio-talvez">Talvez</label>
+                            <label for="radio-nao"><input type="radio" name="recomenda" value="nao" id="radio-nao">Não</label>
+                        </fieldset>
+
+                        <fieldset>
+                            <legend>Você é de qual área?</legend>
+                                <select>
+                                    <option disabled selected value>Selecione uma opção</option>
+                                    <option>Humanas</option>
+                                    <option>Exatas</option>
+                                </select>
+                        </fieldset>
+
+                        <p class="materia">Qual é a sua matéria favorita?</p>
+                        <label class="checkbox"><input type="checkbox">Português</label>
+                        <label class="checkbox"><input type="checkbox">Matemática</label>
+                        <label class="checkbox"><input type="checkbox">Biologia</label>
+                        <label class="checkbox"><input type="checkbox">Física</label>
+                        <label class="checkbox"><input type="checkbox">Química</label>
+                        <label class="checkbox"><input type="checkbox">História</label>
+                        <label class="checkbox"><input type="checkbox">Geografia</label>
+
+                        <label for="mensagem">Gostaria de dar algum recado adicional?</label>
+                        <textarea cols="70" rows="5" id="mensagem" class="input-padrao"></textarea>
+
+                        <input type="submit" value="Enviar" class="enviar">
+
+
+                    </form>
+                </main>
+            </div>
+        </div>
+    </body>
+</html>

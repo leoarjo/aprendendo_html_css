@@ -1,0 +1,122 @@
+body {
+    font-family: 'Rubik', sans-serif;
+    background: url("students-with-laptop-medium-shot.jpg") no-repeat;
+    background-size: 100%;
+    background-attachment: fixed, scroll;
+}
+
+.layer {
+    background-color: rgba(70,70,150, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 1600px
+}
+
+h1 {
+    text-align: center;
+    color: #FFFFFF;
+}
+
+h1 + p {
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.registro {
+    width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #FFFFFF;
+    padding: 20px;
+    background-color: rgba(41,41,71, 0.9);
+    border-radius: 5px;
+    text-align: left;
+}
+
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 90%;
+    border-radius: 5px;
+    border:none;
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px
+}
+
+fieldset {
+    border:none
+}
+
+input[type='radio'] {
+    width: 18px;
+    height: 18px;
+    vertical-align: top;
+}
+
+select {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 100%;
+    border-radius: 5px;
+    border:none;
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px
+}
+
+.materia {
+    font-size: 20px
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+input[type='checkbox'] {
+    -webkit-appearance:none;
+    width:20px;
+    height:20px;
+    background:white;
+    border-radius:5px;
+    border:2px solid #555;
+    vertical-align: bottom;
+}
+
+input[type='checkbox']:checked {
+    background: purple;
+}
+
+.enviar {
+    font-family: 'Rubik', sans-serif;
+    width: 100%;
+    padding: 15px 0;
+    font-weight: normal;
+    background: #37af65;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.enviar:hover {
+    transform: scale(0.96);
+}
